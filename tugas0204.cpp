@@ -10,5 +10,11 @@ using namespace std;
 	cout<<"Jumlah box Parket	:"<<JP<<endl;
 	double BPR=JP*500;
 	cout<<"Biaya Parket (Rp)	:"<<BPR<<endl;
+	int BPS=LR*20;
+	cout<<"Biaya Pasang(Rp)	:"<<BPS<<endl;
+	double TB=BPR+BPS;
+	cout<<"Total Biaya(Rp)		:"<<TB<<endl;
+	cout<<"........................................";
+	getch();
 	}
 	
